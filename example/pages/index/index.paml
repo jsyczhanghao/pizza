@@ -1,0 +1,15 @@
+<page style="display: flex; flex-direction: column; height: 100%;">
+  <scroll-view style="height: 300px;">
+    <scroll-view style="height: 200px; background: red;">
+      <div style="height: 1000px;">
+        内层scroll-view
+      </div>
+    </scroll-view>
+
+    <div style="height: 1000px; background: green;" @click="onClick">
+      外层
+    </div>
+  </scroll-view>
+
+  <banner style="flex: 1;"></banner>
+</page>

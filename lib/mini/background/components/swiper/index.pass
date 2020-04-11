@@ -1,0 +1,27 @@
+.swiper {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+.swiper-inner {
+  display: flex;
+  height: 100%;
+}
+
+.swiper-vertical {
+  flex-direction: column;
+}
+
+.swiper-animation {
+  overflow: hidden;
+}
+
+.swiper-animation .swiper-inner {
+  transition: transform 600ms ease-in;
+}
+
+:host {
+  max-height: 100%;
+  display: block;
+}

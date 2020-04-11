@@ -1,0 +1,3 @@
+<div class="scroll-view" @scroll="onScroll" :style="style">
+  <slot></slot>
+</div>

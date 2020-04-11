@@ -1,0 +1,5 @@
+<div :class="'swiper ' + (animating ? ' swiper-animation' : '')">
+  <div class="swiper-inner" :style="innerTransformStyle" @touchstart="onTouchStart" @touchmove="onTouchMove" @touchend="onTouchEnd" @webkitTransitionEnd="onTransitionEnd">
+    <slot></slot>
+  </div>
+</div>
