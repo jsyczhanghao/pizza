@@ -1,9 +1,0 @@
-.scroll-view {
-  height: 100%;
-  overflow: auto;
-}
-
-:host {
-  display: block;
-  max-height: 100vh;
-}

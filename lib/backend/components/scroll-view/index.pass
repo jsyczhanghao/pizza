@@ -1,0 +1,13 @@
+.scroll-view {
+  height: 100%;
+  overflow: auto;
+}
+
+:host {
+  display: block;
+  max-height: 100vh;
+}
+
+a, b, c {
+  font-size: 22px;
+}

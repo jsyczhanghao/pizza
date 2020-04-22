@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "banner": "./components/banner/index"
-  },
-  "navigationBarTitleText": "购物车"
-}

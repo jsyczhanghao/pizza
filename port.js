@@ -6,7 +6,6 @@ module.exports = new Promise((resolve, reject) => {
     if (err) {
       reject(err);
     } else {
-      // publish the new Port, necessary for e2e tests
       resolve(process.env.PORT = port);
     }
   });

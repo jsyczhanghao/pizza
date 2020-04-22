@@ -1,5 +1,0 @@
-<swiper style="height: 200px">
-  <swiper-item v-for="images">
-    <img :src="$item" style="width: 100vw; height: 200px;" />
-  </swiper-item>
-</swiper>
