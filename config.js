@@ -35,7 +35,7 @@ module.exports = function (root, isProduction) {
     },
     resolveLoader: {
       modules: [
-        path.join(__dirname, 'node_modules'), path.join(__dirname, 'loaders')
+        'node_modules', path.join(__dirname, 'node_modules'), path.join(__dirname, 'loaders')
       ]
     },
     module: {
